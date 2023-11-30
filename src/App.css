@@ -1,3 +1,151 @@
+.slideshow-container {
+  display: flex;
+  max-height: 30px;
+  background-color: #2596be;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+
+}
+
+/* =============== this css for Nav1 bar =================== */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: white;
+  border-bottom: 1px solid rgb(228, 228, 228);
+
+}
+
+
+.navbar input {
+  flex-grow: .3;
+  margin-right: 10px;
+  padding: 5px;
+}
+
+.navbar img {
+  height: 40px;
+  width: 370px;
+}
+
+
+/* =============== this css for Nav2 bar =================== */
+.nav2{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-weight: bold;
+  align-items: center;
+}
+
+
+/* =============== build gift in body =================== */
+.Buildgift{
+  background-image: url("https://www.honest.com/dw/image/v2/BDBW_PRD/on/demandware.static/-/Library-Sites-HC-content/default/dw1863d39a/2023/homepage/full-width/1023_HolidayBuildYourOwnGift_HDC_Hero_Desktop_NoCopy.jpg?sw=2000");
+  background-size: cover;
+}
+
+.buildgifttext{
+  margin-bottom: 4%;
+  margin-left: 6%;
+  margin-right: 65%;
+  padding: 3%;
+}
+
+.getstartedbutton{
+  background-color: black;
+  color: white;
+  padding: 20px;
+  margin-right: 15px;
+  font-weight: bold;
+  margin-bottom: 3%;
+  margin-left: 2%;
+}
+.shopallgiftsbutton{
+  background-color: transparent;
+  color: black;
+  font-weight: bold;
+  padding: 20px;
+  margin-left: 2%;
+}
+
+ /* =============== Holiday Gifts =================== */
+ .holidaygifts-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 2%;
+}
+
+.holidaygiftsbutton {
+  background-color: black;
+  color: white;
+  padding: 10px 40px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  margin-right: 70%;
+  font-weight: bold;
+}
+.holidaygiftsbutton:hover {
+  background-color: transparent;
+  color: black;
+  padding: 10px 40px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  margin-right: 70%;
+  font-weight: bold;
+  }
+
+  .gift-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.gifttag{
+  background-color: #ccc;
+  margin-right: 45%;
+  font-weight: bold;
+}
+
+.gift-list li {
+    padding: 10px;
+    text-align: center;
+    max-width: 250px;
+}
+
+.gift-list li img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.gift-list li h3 {
+    margin-bottom: 5px;
+}
+
+.gift-list li p {
+    margin-bottom: 0;
+}
+
+.HolidayGiftImage {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  width: 100%; 
+  height: 100%;
+
+}
+
+
+/* =============== this css for All Wipes =================== */
 .allWipepage {
     text-align: center;
     margin: 3%;
@@ -66,3 +214,10 @@
   .imageContainer:hover .hoverImage {
     opacity: 1;
   }
+  .wipeImage2{
+    height: 40px;
+    width: 210px;
+  }
+
+
+ 
